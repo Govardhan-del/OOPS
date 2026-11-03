@@ -38,7 +38,7 @@ int main()
 {
    // Student s1;                                 no need
     //Test t1;                                    no need
-    Result r1(97,85.7,632,"kingson",65);        //  no need (because its parameterized constructor)
+    Result r1(97,85.7,474,"Sharthak",65);        //  no need (because its parameterized constructor)
     r1.display();
 
     return 0;
