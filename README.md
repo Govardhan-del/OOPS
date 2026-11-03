@@ -7,10 +7,10 @@ the Object Oriented Programming (OOPS) Lab.
 
 | Field | Details |
 |---|---|
-| Name | Sharthak Raj |
-| Roll No | 474 |
+| Name | Govardhan K Huded |
+| Roll No | 401 |
 | Division | D |
-| SRN | 01FE23BEC376 |
+| SRN | 01FE23BEC360 |
 | Semester | VII |
 
 ## Language
