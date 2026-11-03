@@ -1,22 +1,22 @@
-// program for binary operator overloading ... to concatinate two strings
+// Writing to file
 
-//write a c++ program to add two complex numbers with operator overloading.
-#include<iostream>
-using namespace std;
+#include <iostream>
+#include <fstream> // Required header
 
-class String_Concat{
-string str_1, str_2;
-public:
+int main() {
+    // 1. Create stream object and open file
+    std::ofstream outFile("example.txt");
 
-   String_Concat(string r=0): str_1(r){};
-    String_Concat operator+(const String_Concat &s){                // operator function
-    return String_Concat(str_1 + str_2);
+    // 2. Always verify if the file opened successfully
+    if (outFile.is_open()) {
+        outFile << "Hello, World!\n";
+        outFile << "Writing to files in C++ is straightforward.\n";
+        
+        // 3. Close the file to free system resources
+        outFile.close(); 
+        std::cout << "Data successfully written.\n";
+    } else {
+        std::cerr << "Error opening file for writing!\n";
     }
-    void show() { cout << s ; }
-};
-
-int main(){
-String_Concat a("hi"), b("bye");
-String_Concat s = a + b;       // calls a.operator+(b)
-s.show();
+    return 0;
 }
