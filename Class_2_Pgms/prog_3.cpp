@@ -12,16 +12,16 @@ using namespace std;
   int age;
   public:
        void DisplayData(); //Function declaration is must else you will get this error " ||=== Build file: "no target" in "no project" (compiler: unknown) ===|
-//C:\Users\kings\Desktop\OOPS Elective\Programs\Class_2\prog_3.cpp|22|error: no declaration matches 'void Student::DisplayData()'|
-//C:\Users\kings\Desktop\OOPS Elective\Programs\Class_2\prog_3.cpp|22|note: no functions named 'void Student::DisplayData()'|
-//C:\Users\kings\Desktop\OOPS Elective\Programs\Class_2\prog_3.cpp|9|note: 'class Student' defined here|
-//C:\Users\kings\Desktop\OOPS Elective\Programs\Class_2\prog_3.cpp||In function 'int main()':|
-//C:\Users\kings\Desktop\OOPS Elective\Programs\Class_2\prog_3.cpp|32|error: 'class Student' has no member named 'DisplayData'|
+//C:\Users\Sharthak\Desktop\OOPS Elective\Programs\Class_2\prog_3.cpp|22|error: no declaration matches 'void Student::DisplayData()'|
+//C:\Users\Sharthak\Desktop\OOPS Elective\Programs\Class_2\prog_3.cpp|22|note: no functions named 'void Student::DisplayData()'|
+//C:\Users\Sharthak\Desktop\OOPS Elective\Programs\Class_2\prog_3.cpp|9|note: 'class Student' defined here|
+//C:\Users\Sharthak\Desktop\OOPS Elective\Programs\Class_2\prog_3.cpp||In function 'int main()':|
+//C:\Users\Sharthak\Desktop\OOPS Elective\Programs\Class_2\prog_3.cpp|32|error: 'class Student' has no member named 'DisplayData'|
 //||=== Build failed: 2 error(s), 0 warning(s) (0 minute(s), 0 second(s)) ===|
 
       void SetData()
       {
-        s1="Kingson";
+        s1="Sharthak";
           age=21;
       }
  };
